@@ -20,7 +20,7 @@ export const Navbar = () => {
             <li onClick={()=>{setMenu("shop")}}><Link style={{textDecoration:'none'}} to='/'>Shop</Link>{menu==="shop"?<hr/>:<></>}</li>
             <li onClick={()=>{setMenu("fictional")}}><Link style={{textDecoration:'none'}} to='/fictional'>Fictional</Link>{menu==="fictional"?<hr/>:<></>}</li>
             <li onClick={()=>{setMenu("nonfictional")}}><Link style={{textDecoration:'none'}} to='/nonfictional'>Non-fictional</Link>{menu==="nonfictional"?<hr/>:<></>}</li>
-            <li onClick={()=>{setMenu("romance")}}><Link style={{textDecoration:'none'}} to='/romance'>Romance</Link>{menu==="romance"?<hr/>:<></>}</li>
+            <li onClick={()=>{setMenu("crime-drama")}}><Link style={{textDecoration:'none'}} to='/crime-drama'>Crime-Drama</Link>{menu==="crime-drama"?<hr/>:<></>}</li>
         </ul>
         <div className="nav-login-cart">
             <Link to='/login'><button>Login</button></Link>
